@@ -13,7 +13,7 @@ const express=require('express');
 const app=express();
 // 3. 注册根路由(使用app的use())
 app.use('/',function (req,res) {
-    res.send('hello server!哈哈哈~~~')
+    res.send('hello server!')
 })
 // 4. 启动服务器(使用app监听指定端口)
 app.listen('8888',()=>{
